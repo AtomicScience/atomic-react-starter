@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "vite",
+    "wipe-example": "node scripts/wipe-example.js",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest --ui --open=false"
