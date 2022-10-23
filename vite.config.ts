@@ -15,5 +15,8 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
   },
+  css: {
+    devSourcemap: true,
+  },
   root: path.resolve(process.cwd(), 'src')
 });
