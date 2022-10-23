@@ -1,4 +1,5 @@
 @import "palette";
+@import "mixins";
 
 * {
   box-sizing: border-box;
@@ -6,5 +7,5 @@
 
 body {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  padding: 0;
+  @include bodyReset;
 }
