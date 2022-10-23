@@ -20,7 +20,6 @@ In WebStorm settings, go to `Editor` -> `Code Style` -> `Typescript` -> `Import`
 - `React Testing Library`
 - `SASS`
 - `React Router`
-- `Husky`
 - `OpenColor Palette`
 
 
@@ -29,3 +28,5 @@ In WebStorm settings, go to `Editor` -> `Code Style` -> `Typescript` -> `Import`
 - Mutation testing? (`Stryker`)
 - One-command `Mantine` and `Tabler Icon` installation
 - Reference files with a script to remove them all
+- Add on-commit hooks with `Husky`
+- Add components and pages templating with `plop`
